@@ -21,6 +21,10 @@ Family-Table is a fake service that connects home cooks to hungry foodies in New
 
 ← `server.js`: NodeJS server that handles any GET and POST request.
 
+## Mentee Preparation
+Before your assessment, ensure that you can run the Node server on your computer by following instructions [here](#local-development). This will ensure that you can spend the entirety of the assessment on coding!
+
+
 ## Local Development
 
 1. Ensure you have [Node](https://nodejs.org) and NPM installed. If not, follow instructions [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). You can simply test if your local environment has Node and NPM by using instructions node -v
