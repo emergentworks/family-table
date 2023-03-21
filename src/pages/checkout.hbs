@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3274/3274099.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="/helpers.js"></script>
+
+    <title>Family Table</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="content" role="main">
+      <div class="hero">
+        <h1 class="title">Family Table</h1>
+        <div class="hero-description">
+          Discover Delicious Home-Cooked Meals Near You
+        </div>
+      </div>
+        <div class="meal-container">
+          <a class="go-back" href="/meal?id={{id}}">
+            ← Go Back
+          </a>
+        </div>
+        <div class="checkout-form">
+          You can pay directly to our chef via cash or Venmo.
+          <form action="/checkout" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" ><br>
+            <label for="pickup">Pickup Location:</label>
+            <select id="pickup" name="pickup" >
+              <option value="Union Square (11:30PM)">Union Square (11:30PM)</option>
+              <option value="Borough Hall (12:00PM)">Borough Hall (12:00PM)</option>
+              <option value="Queensboro Plaza (12:30PM)">Queensboro Plaza (12:30PM)</option>
+            </select><br>
+            <label for="quantity">Quantity:</label><br>
+            <select id="quantity" name="quantity" >
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <br>
+            <input id="meal-price" type="hidden" name="total" value="{{meal.price}}" />
+            <div class="order-calculation">
+              Meal by {{meal.cook}} :&ensp;<b>${{meal.price}}.00</b><br>
+              Quantity:&emsp;&emsp;&emsp;x
+              <span id="rendered-quantity">1</span>
+              <br>
+              Total Price:&ensp;<b>$
+                <span id="rendered-total">{{meal.price}}</span>
+                .00
+                </b>
+            </div>
+            <input type="submit" value="Confirm Order">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

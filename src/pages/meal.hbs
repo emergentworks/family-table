@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3274/3274099.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Family Table</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="content" role="main">
+      <div class="hero">
+        <h1 class="title">Family Table</h1>
+        <div class="hero-description">
+          Discover Delicious Home-Cooked Meals Near You
+        </div>
+      </div>
+        <div class="meal-container">
+          <a class="go-back" href="/">
+            ← Go Back
+          </a>
+          <div class="meal-details">
+            <div class="meal-details-image">
+              <img src="{{meal.image_url}}">
+            </div>
+            <div class="meal-details-description">
+              <div class="chef">Chef {{meal.cook}}</div>
+              <div class="category">{{meal.category}}</div>
+              <div class="summary">{{meal.summary}}</div>
+              <div class="previous-meals"><b>Previous meals</b> include {{meal.previous_meals}}</div>
+              <div id="order-now-btn"><a href="/checkout?id={{id}}">Order Now for ${{meal.price}}</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

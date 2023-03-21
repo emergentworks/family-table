@@ -1,0 +1,112 @@
+{
+  "meals": [
+    {
+      "cook": "Ana S.",
+      "image_url": "https://images.unsplash.com/photo-1568625365131-079e026a927d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+      "category": "Vegan",
+      "rating": 4.4,
+      "summary": "Ana is a woman who has always been passionate about cooking and sharing her vegan creations with others. She loves nothing more than seeing the joy on people's faces as they taste her delicious plant-based dishes. But what really drives Ana is her commitment to sustainability. She believes that the choices we make in our daily lives have a significant impact on the planet, and she wants to do her part to minimize that impact.",
+      "previous_meals": "Vegan Lentil Soup, Chickpea Curry, Vegan Chili, Vegan Mushroom Stroganoff",
+      "price": 16.0
+    },
+    {
+      "cook": "Maria R.",
+      "image_url": "https://media.istockphoto.com/id/1161588106/photo/peruvian-ceviche-sebiche-peruvian-seafood-and-fish-sebiche-with-maize.jpg?s=612x612&w=0&k=20&c=owY8DAZQGb_N31yFm5ot3gZ1WUknCT4yhUpdDUTWoVc=",
+      "category": "Peruvian",
+      "rating": 5.0,
+      "summary": "As a Peruvian, I have a deep love for the flavors and spices of my country's cuisine. The fusion of indigenous ingredients with Spanish, African, and Asian influences makes for a truly unique and delicious culinary experience. From ceviche to lomo saltado, I take pride in sharing my passion for Peruvian food with others and introducing them to the rich culture and history behind each dish.",
+      "previous_meals": "Lomo Saltado, Aji de Gallina, Arroz con Pollo",
+      "price": 20
+    },
+    {
+      "cook": "Emma N.",
+      "image_url": "https://media.istockphoto.com/id/1028123408/photo/pho-bo-vietnamese-soup-with-beef-in-bowl.jpg?s=612x612&w=0&k=20&c=VfR9DO6T3Gi3voStHvlY5NYDyFo7X4bX2Lbbzse2T24=",
+      "category": "Vietnamese",
+      "rating": 4.4,
+      "summary": "As a home cook chef from Vietnam, I'm passionate about sharing the authentic flavors of my country's cuisine. My dishes are made with fresh herbs, spices, and ingredients sourced locally, ensuring the highest quality and taste. From pho to banh mi, my food is a true reflection of the rich culinary heritage and diversity of Vietnam.",
+      "previous_meals": "Beef Pho, Banh Mi, Bun cha",
+      "price": 15
+    },
+    {
+      "cook": "Tarek A.",
+      "image_url": "https://media.istockphoto.com/id/953207742/photo/ash-reshteh-persian-noodle-soup.jpg?s=612x612&w=0&k=20&c=rD2_d6Bbc52YWCNQW6iMehTSYkdkIj1Dw8pBRYl6Nm0=",
+      "category": "Iranian",
+      "rating": 4.9,
+      "summary": "From aromatic rice dishes like sabzi polo to savory stews like ghormeh sabzi, each dish is carefully prepared using traditional cooking techniques and fresh, high-quality ingredients. Whether it's a simple weekday meal or a special occasion feast, Iranian cuisine is sure to satisfy and delight even the most discerning palate.",
+      "previous_meals": "Chelo Kabab, Zereshk Polo, Ghormeh Sabzi, Khoresh Gheymeh",
+      "price": 20
+    },
+    {
+      "cook": "Ahmed K.",
+      "image_url": "https://media.istockphoto.com/id/1292436403/photo/chicken-tikka-biryani-made-of-basmati-rice-cooked-with-masala-spices-served-with-yogurt.jpg?s=612x612&w=0&k=20&c=Uj_BKjq966_84-Golt_Eit5RuzVSeeNhSVBjXAhrVTI=",
+      "category": "Indian",
+      "rating": 4.0,
+      "summary": "My Punjabi roots have instilled in me a deep love for flavorful and hearty food. I take great pride in creating dishes that are both authentic and delicious, using traditional spices and cooking techniques passed down through generations. Whether it's chole bhature or butter chicken, my home-cooked Indian meals are always made with love and care.",
+      "previous_meals": "Chole Bhature, Saag Paneer",
+      "price": 16
+    },
+    {
+      "cook": "Nabilah A.",
+      "image_url": "https://media.istockphoto.com/id/1250203138/photo/seafood-curry-laksa.jpg?s=612x612&w=0&k=20&c=u2NjOGOha5vYYYCPyz3GlAq7e8H-FYB_18W9eAf-p48=",
+      "category": "Malaysian",
+      "rating": 4.8,
+      "summary": "As a Malaysian chef, my motivation to cook comes from a deep appreciation for the diverse cultural influences and flavors of Malaysian cuisine. Each dish tells a story of the country's history and reflects the unique blend of Malay, Chinese, and Indian cultures. I take great pride in sharing these stories through my food and introducing others to the rich tapestry of Malaysian cuisine.",
+      "previous_meals": "Nasi Lemak, Beef Rendang, Mee Goreng",
+      "price": 13
+    },
+    {
+      "cook": "Amina A.",
+      "image_url": "https://media.istockphoto.com/id/157594139/photo/injera-meal.jpg?s=612x612&w=0&k=20&c=78vNLncPB7R5g0hwxtgOEdrAW5flsYKVV-rO0Qf4xkI=",
+      "category": "Somali",
+      "rating": 4.4,
+      "summary": "I find great joy in cooking for my children and passing down our family's traditional recipes. Somali cuisine is all about simple yet flavorful dishes made with fresh ingredients and aromatic spices. From sambusas to suqaar, each dish is a reflection of our heritage and culture, and I'm proud to share it with my family through my cooking.",
+      "previous_meals": "Suqaar, Sambusa, Sambusa",
+      "price": 13
+    },
+    {
+      "cook": "Sora K.",
+      "image_url": "https://media.istockphoto.com/id/1367810338/photo/korean-traditional-food-yukgaejang-beef-soup.jpg?s=612x612&w=0&k=20&c=P8Mi9E2gFlKAdcvmHxiaT3zqUKc1ECCI9T12Km3f5qQ=",
+      "category": "Korean",
+      "rating": 4.5,
+      "summary": "I find great joy in introducing others to the unique and delicious flavors of Korean food, whether it's through traditional dishes like bibimbap or fusion creations like Korean BBQ tacos. Cooking Korean meals for others is a way for me to share my passion for food and culture.",
+      "previous_meals": "Bibimbap, Japchae, Kimchi jjigae",
+      "price": 18
+    },
+    {
+      "cook": "Sibongile N.",
+      "image_url": "https://media.istockphoto.com/id/453069827/photo/bunny-chow.jpg?s=612x612&w=0&k=20&c=oXgUXcBKcsM6g1M3y1d5vrb_DkxCRr3J_T5EaJ-1oSY=",
+      "category": "South African",
+      "rating": 5.0,
+      "summary": "As a chef with South African roots, my cooking is heavily influenced by the flavors and ingredients of my home country. I love incorporating spices like peri peri and turmeric, as well as unique ingredients like biltong and mealie meal, into my dishes. Some of my favorite South African home-cooked meals include potjiekos, a flavorful stew made with meat and vegetables, and chakalaka, a spicy relish that pairs well with just about anything.",
+      "previous_meals": "Bobotie, Bunny Chow, Boerewors",
+      "price": 14
+    },
+    {
+      "cook": "Yara K.",
+      "image_url": "https://media.istockphoto.com/id/1301134084/photo/chef-offers-his-prepared-falafel-plate.jpg?s=612x612&w=0&k=20&c=K6zFrRUuCHGpYhwjVgrojQqP8GIC4nrDE9PHHmc6h7c=",
+      "category": "Lebanese",
+      "rating": 4.9,
+      "summary": "Lebanese home cooking culture is deeply rooted in traditional recipes that have been passed down from generation to generation, often using fresh and locally sourced ingredients.",
+      "previous_meals": "Tabbouleh, Kibbeh",
+      "price": 20
+    },
+    {
+      "cook": "Giselle H.",
+      "image_url": "https://media.istockphoto.com/id/476298678/photo/cuban-oxtail-stew-with-yellow-rice.jpg?s=612x612&w=0&k=20&c=Lwr2Bu6OMgyPixPQuL4oPlE9thKKMw4PVHY3_2f_xrc=",
+      "category": "Cuban",
+      "rating": 4.9,
+      "summary": "Cooking at home also allows us to control the ingredients and ensure that our families are eating healthy, nutritious meals that are free from preservatives and additives.",
+      "previous_meals": "Ropa Vieja, Moros y Cristianos, Lechon Asado",
+      "price": 18
+    },
+    {
+      "cook": "Hassan A.",
+      "image_url": "https://media.istockphoto.com/id/1218958184/photo/delicious-spicy-chicken-biryani-in-traditional-bowl-on-white-background-indian-or-pakistani.jpg?s=612x612&w=0&k=20&c=Ot85x2-nhovKA5fcwj8kOMaeN1lWnD5q0o1m45_GJ5g=",
+      "category": "Pakistani",
+      "rating": 4.8,
+      "summary": "Pakistani cuisine is a fusion of different regional cooking styles and flavors, influenced by the country's diverse history and cultural heritage. Pakistani dishes are characterized by their aromatic spices, bold flavors, and use of fresh, locally sourced ingredients, such as vegetables, meat, and lentils.",
+      "previous_meals": "Haleem, Seekh Kebab, Biryani",
+      "price": 18
+    }
+  ]
+}
