@@ -22,7 +22,7 @@ Family-Table is a fake service that connects home cooks to hungry foodies in New
 ← `server.js`: NodeJS server that handles any GET and POST request.
 
 ## Mentee Preparation
-Before your assessment, ensure that you can run the Node server on your computer by following instructions [here](#local-development). This will ensure that you can spend the entirety of the assessment on coding!
+Before your assessment, ensure that you can run the Node server on your computer by following instructions [here](#local-development). This will ensure that you can spend the entirety of the assessment on coding! You will also be expected to share your screen so be sure to only have your code editor, Terminal, Zoom, and web browser open.
 
 
 ## Local Development
