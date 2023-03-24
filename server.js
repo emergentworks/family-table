@@ -33,9 +33,9 @@ fastify.register(require("@fastify/view"), {
  * Returns src/pages/index.hbs with data built into it
  */
 fastify.get("/", function (request, reply) {
-  const meals = require("./src/meals.json");
+  let meals = require("./src/meals.json");
   let params = {
-    meals: meals,
+    meals: meals.meals,
     date: "Tuesday March 23",
   };
 
@@ -50,7 +50,7 @@ fastify.get("/", function (request, reply) {
 fastify.get("/meal", function (request, reply) {
   let mealID = request.query.id;
   const meals = require("./src/meals.json");
-  let params = { meal: meals.meals[mealID], id: mealID };
+  let params = { meal: meals.meals.find((m) => m.id.toString() === mealID) };
 
   return reply.view("/src/pages/meal.hbs", params);
 });
@@ -63,7 +63,7 @@ fastify.get("/meal", function (request, reply) {
 fastify.get("/checkout", function (request, reply) {
   let mealID = request.query.id;
   const meals = require("./src/meals.json");
-  let params = { meal: meals.meals[mealID], id: mealID };
+  let params = { meal: meals.meals.find((m) => m.id.toString() === mealID) };
 
   return reply.view("/src/pages/checkout.hbs", params);
 });

@@ -38,8 +38,8 @@
           <span>{{date}}</span>
         </div>
         <div class="meal-grid">
-          {{#each meals.meals}}
-            <a href="/meal?id={{@index}}">
+          {{#each meals}}
+            <a href="/meal?id={{id}}">
               <div class="meal">
                 <div class="meal-image">
                   <img src="{{image_url}}" />
