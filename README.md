@@ -23,8 +23,14 @@
 ← `server.js`: NodeJS server that handles any GET and POST request.
 
 ## Mentee Preparation
+
 Before your assessment, ensure that you can run the Node server on your computer by following instructions [here](#local-development). This will ensure that you can spend the entirety of the assessment on coding! You will also be expected to share your screen so be sure to only have your code editor, Terminal, Zoom, and web browser open.
 
+## Page Structure
+
+| Homepage | Meal | Checkout | Thank You |
+| -- | -- | -- | -- |
+| <img src="readme-assets/home-page.png" alt="family-table icon" width="300px"> | <img src="readme-assets/meal.png" alt="family-table icon" width="300px"> | <img src="readme-assets/checkout.png" alt="family-table icon" width="300px"> | <img src="readme-assets/thank-you.png" alt="family-table icon" width="300px"> |
 
 ## Local Development
 
