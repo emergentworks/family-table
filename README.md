@@ -2,7 +2,7 @@
 
 <img src="https://cdn-icons-png.flaticon.com/512/3274/3274099.png" alt="family-table icon" width="100px">
 
-[Family-Table](https://family-table.netlify.app) is a fake service that connects home cooks to hungry foodies in New York City. Choose a chef to order from and meet them for at the designated pick up location.
+[Family-Table](https://family-table.onrender.com/) is a fake service that connects home cooks to hungry foodies in New York City. Choose a chef to order from and meet them for at the designated pick up location.
 
 #### How is this a fake website?
 
@@ -46,7 +46,7 @@ This site is managed by [Emergent Works](https://github.com/emergentworks) and i
 
 ### Deployment
 
-Continuous deployment is set up via Netlify. Contact @ashley for deployment support.
+Continuous deployment is set up via [Render](https://render.com/). Contact @ashley for deployment support.
 
 ## Acknowledgments
 
