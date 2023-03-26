@@ -4,6 +4,7 @@
  */
 
 const path = require("path");
+const PORT = process.env.PORT || 52074;
 
 // Require the fastify framework and instantiate it
 const fastify = require("fastify")({
@@ -82,7 +83,7 @@ fastify.post("/checkout", function (request, reply) {
 });
 
 // Run the server and report out to the logs
-fastify.listen({ port: 52074, host: "0.0.0.0" }, function (err, address) {
+fastify.listen({ port: PORT, host: "0.0.0.0" }, function (err, address) {
   if (err) {
     console.error(err);
     process.exit(1);
