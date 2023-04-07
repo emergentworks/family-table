@@ -31,7 +31,7 @@ Before your assessment, ensure that you can run the Node server on your computer
 npm -v.
 2. Clone the repo.
 3. Run `npm install`
-4. Run `npm start` and open `http://0.0.0.0:52074` in your browser.
+4. Run `npm start` and open `http://127.0.0.1:52074` in your browser.
 
 ## Actual Development
 This site is managed by [Emergent Works](https://github.com/emergentworks) and is used to assess individual's full-stack experience.
