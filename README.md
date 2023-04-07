@@ -24,6 +24,10 @@ Family-Table is a fake service that connects home cooks to hungry foodies in New
 ## Mentee Preparation
 Before your assessment, ensure that you can run the Node server on your computer by following instructions [here](#local-development). This will ensure that you can spend the entirety of the assessment on coding! You will also be expected to share your screen so be sure to only have your code editor, Terminal, Zoom, and web browser open.
 
+## Fastify and Handlebar
+
+Besides Node and NPM, this project uses Fastify and [Handlebar](https://handlebarsjs.com/). These tools are not required for mentees to know before the assessment so it helps to give an overview of how to use them before beginning their assessment. You can use the page `/playground` to show how Fastify passes params from the server to the client. You can also demo [simple expressions](https://handlebarsjs.com/guide/#installation) on this page to show how it interacts with HTML and CSS.
+
 
 ## Local Development
 
