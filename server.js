@@ -82,8 +82,19 @@ fastify.post("/checkout", function (request, reply) {
   return reply.view("/src/pages/thank_you.hbs", params);
 });
 
+/**
+ * Playground page
+ *
+ * Returns src/pages/playground.hbs with data built into it
+ */
+fastify.get("/playground", function (request, reply) {
+  let params = { foo: "bar" };
+
+  return reply.view("/src/pages/playground.hbs", params);
+});
+
 // Run the server and report out to the logs
-fastify.listen({ port: PORT, host: "0.0.0.0" }, function (err, address) {
+fastify.listen({ port: PORT, host: "127.0.0.1" }, function (err, address) {
   if (err) {
     console.error(err);
     process.exit(1);
